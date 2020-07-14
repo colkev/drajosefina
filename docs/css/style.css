@@ -1,0 +1,256 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+section{
+
+    overflow-x: hidden;
+}
+:root{
+    --Sniglet-font:"Sniglet", cursive;
+    --Rubik:"Rubik", cursive;
+    --Patua:"Patua One", cursive;
+    --Lobster:"Lobster", cursive;
+    --light-black:#2e2c2caf;
+    --bggradiente:linear-gradient(to bottom, #24c1dd, #2f71ff);
+    --light-gray:rgba(255,255,255,0.877);
+}
+
+header a{
+    font-family:var(--Sniglet-font);
+    color: whitesmoke;
+}
+
+header{
+    background:  #2f71ff;
+    background: var(--bggradiente);
+    
+}
+/* .dropdown-content{
+    display: none;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: var(--bggradiente);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .navbar-brand{
+    padding-left: 4rem;
+} */
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+  }
+  header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+  }
+  header .row .col-md-5 img {
+    width: 90%;
+  }
+  
+  /*-----  Sección 1 ---- */
+  .section-1{
+      padding:20vmin 0vmin;
+  }
+  .section-1 .row .col-md-6 .pray img{
+      /*opacity:0.9;*/
+      width:80%;
+      border-radius:0.2em;
+  }
+  .section-1 .row .col-md:last-child{
+      position:relative;
+  }
+  .section-1 .row .col-md-6 .panel{
+      position: absolute;
+      top:7vmin;
+      left:-18vmin;
+      background:white;
+      border-radius:3px;
+      text-align: left;
+      padding: 13vmin 5vmin 20vmin 10vmin;
+      box-shadow:0px 25px 42px rgba(0,0,0,0.2);
+      font-family: var(--Rubik);
+      z-index: 1;
+  }
+
+  .section-1 .row .col-md-6 .panle p{
+      font-weight: bold;
+      padding:0.4em 0;
+      font-size:3em;
+  }
+
+  .section-1 .row .col-md-6 .panel p{
+      font-size:0.9em;
+      color:rgba(0,0,0,0.8);
+  }
+
+  /*-------------- SECCIÓN 2 --------*/
+  .cover{
+      width: 100%;
+      height:65vmin;
+      background: url("../img/mujerFeliz.jpg");
+      background-position: -24rem -19 rem;
+      background-size:150%;
+      position: relative;
+  }
+  
+  .cover .overlay{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      z-index:999;
+  }
+  .cover .content{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width:100%;
+    padding-top:19vmin;
+}
+  .cover .content > h1{
+      padding-top: 3rem;
+      font-family: var(--Patua);
+      font-size:8vmin;
+      color:whitesmoke;
+  }
+  .cover .content > p{
+      font-family:var(--Rubik);
+      font-size:2vmin;
+      color:#e5e5e5;
+  }
+  .numbers .rect{
+      position:relative;
+      z-index:1;
+      background:white;
+      width:12rem;
+      height:12rem;
+      padding-top: 3.5vmin;
+      margin:1rem;
+      border-radius:0.5em;
+      box-shadow:1px 2px 50px 0px rgba(0,255,255,349);
+  }
+  .numbers{
+      margin-top: -15vmin;
+  }
+  .numbers .rect > h1{
+      font-size: 5rem;
+      color: #24c1dd;
+  }
+
+  .numbers .rect > p{
+      font-family: var(--Patua);
+  }
+.especialidad > h1{
+    padding-top:15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Patua);
+    font-size: 7vmin;
+}
+
+.especialidad >p{
+    color:var(--light-black);
+    font-size:3vmin;
+    padding-bottom:10vmin;
+}
+.especialidad .cards .card{
+    width:22rem;
+    margin: 3vmin 2vmin;
+}
+.cards div{
+    padding:0;
+    margin:0;
+}
+.cards .title{
+    background: rgba(208,241,241,0.199);
+    padding:1.4em 2.5em;
+    font-size:2vmin;
+    font-family: var(--Lobster);
+}
+.cards .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+.card-body .boton{
+    background: rgba(208,241,241,0.199);
+    border-top-right-radius:170px;
+    border-top-left-radius:170px;
+}
+.card-body .boton > h1{
+    font-size:10vmin;
+    padding:1em 0.5em;
+}
+
+/*--------- Sección 3 Video llamada --------*/
+.section-3{
+    height:70vmin;
+    margin-top:15vmin;
+    background: var(--bggradiente);
+}
+.section-3 .col-md-12 > h1{
+    padding: 2em 0 0.5em 0;
+    color:whitesmoke;
+    font-size:6vmin;
+}
+.section-3 .col-md-12 > p{
+    padding:0.4em;
+    padding-bottom:2em;
+    color:var(--light-gray);
+    font-size:3vmin;
+}
+.section-3 .desktop{
+    background: white;
+    display: inline-block;
+    padding: 2vmin 4.5vmin;
+    border-radius: 3em;
+}
+.section-3 .desktop h3{
+    font-size:4vmin;
+}
+
+.section .desktop p{
+    font-size: 2vmin;
+}
+
+/*--------- sección 4 clientes -------*/
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin; 
+}
+
+.section-4 .client{
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card .card-text{
+    padding:0.5em;
+    color:grey;
+}
+/* ------  footer provisorio ---- */
+.foot{
+    background-color: aqua;
+    text-align: center;
+    height:80px;
+    padding-top: 10px;
+}
